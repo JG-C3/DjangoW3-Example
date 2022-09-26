@@ -1,0 +1,41 @@
+.header {
+  margin: 20px;
+}
+
+a {
+  border: 1px solid;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+a:nth-of-type(1)
+{
+  color: red;
+  background-color: rgb(255, 224, 224);
+}
+
+a:nth-of-type(2)
+{
+  color: orange;
+  background-color: rgb(255, 239, 211);
+}
+
+a:nth-of-type(3)
+{
+  color: gold;
+  background-color: rgb(255, 247, 204);
+}
+
+a:nth-of-type(4)
+{
+  color: green;
+  background-color: rgb(225, 255, 225);
+}
+
+a:nth-of-type(5)
+{
+  color: blue;
+  background-color: rgb(225, 255, 225);
+}
