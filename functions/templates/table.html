@@ -11,17 +11,17 @@
     </thead>
     <tbody>
       {% for content in contents %}
-      <tr>
-        <td style="border:1px solid;">{{forloop.counter}}일</td>
-        <td style="border:1px solid; padding: 0 10px;">오늘의 메뉴는 {{content}}입니다.</td>
-        <td style="border:1px solid; padding: 0 10px;">
-          {% if content == '치킨' %}
-            치킨이 제일 좋아.
-          {% elif content == '파스타' %}
-            파스타는 별로야.
-          {% endif %}
-        </td>
-      </tr>
+        <tr>
+          <td style="border:1px solid;">{{forloop.counter}}일</td>
+          <td style="border:1px solid; padding: 0 10px;">오늘의 메뉴는 {{content}}입니다.</td>
+          <td style="border:1px solid; padding: 0 10px;">
+            {% if content == '치킨' %}
+              치킨이 제일 좋아.
+            {% elif content == '파스타' %}
+              파스타는 별로야.
+            {% endif %}
+          </td>
+        </tr>
       {% endfor %}
     </tbody>
   </table>
