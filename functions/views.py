@@ -10,8 +10,10 @@ def image(request):
     return render(request, "image.html")
 
 def lucky(request):
+    name = "규리"
     number = randint(1, 100)
     context = {
+        "name": name,
         "number": number,
     }
 
