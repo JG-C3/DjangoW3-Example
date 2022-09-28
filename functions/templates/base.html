@@ -1,4 +1,3 @@
-{% load static %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,17 +5,12 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="{% static 'css/style.css' %}">
-  {% block head %}
-  {% endblock %}
 </head>
 <body>
-  <div class="header">
-    <a href="/image">이미지</a>
-    <a href="/lucky">행운의 숫자</a>
-    <a href="/birthday">생일 계산기</a>
-    <a href="/table">테이블</a>
-  </div>
+  <a class="red" href="/image">이미지</a>
+  <a href="">행운의 숫자</a>
+  <a href="">생일</a>
+  <a href="">테이블</a>
 
   <h1 style="background-color: pink;">장고 프로젝트</h1>
 

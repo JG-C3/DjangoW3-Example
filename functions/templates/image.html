@@ -1,18 +1,7 @@
 {% extends 'base.html' %}
 {% load static %}
 
-{% block head %}
-  <style>
-    img {
-      width: 50%;
-      margin: auto;
-      display: block;
-    }
-  </style>
-{% endblock %}
-
 {% block body %}
-  <div>
-    <img src="{% static 'image/walnut.jpg' %}" alt="">
-  </div>
+  <h1>이미지</h1>
+  <img style="width: 200px;" src="{% static 'image/cat.jpg' %}" alt="">
 {% endblock %}
